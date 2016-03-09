@@ -11,8 +11,6 @@ import Foundation
 import CoreLocation
 
 class IC_Map: WKInterfaceController, CLLocationManagerDelegate {
-
-    
     
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
