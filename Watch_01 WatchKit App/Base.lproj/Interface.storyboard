@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vuV-Mo-ca0">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="PZb-mG-9IK">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9515"/>
@@ -186,12 +186,48 @@
             </objects>
             <point key="canvasLocation" x="146" y="-1227"/>
         </scene>
+        <!--Connectivity-->
+        <scene sceneID="1IA-s4-tl8">
+            <objects>
+                <controller id="PZb-mG-9IK" customClass="IC_Connectivity" customModule="Watch_01_WatchKit_Extension">
+                    <items>
+                        <button width="1" alignment="left" title="Red" id="YKf-IV-8Df">
+                            <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="redBtn" destination="PZb-mG-9IK" id="YJ9-0t-Uxg"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Orange" id="wWg-xf-yBy">
+                            <color key="titleColor" white="0.11461828860000001" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="orangeBtn" destination="PZb-mG-9IK" id="nlz-pi-H5P"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Blue" id="xtf-71-Xtt">
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="blueBtn" destination="PZb-mG-9IK" id="MDJ-gI-JVh"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Green" id="lqa-T3-zE5">
+                            <color key="titleColor" white="0.11461828860000001" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="greenBtn" destination="PZb-mG-9IK" id="4eA-0T-1Hd"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="491" y="-1227"/>
+        </scene>
         <!--Force Touch-->
         <scene sceneID="22j-31-UHS">
             <objects>
                 <controller id="2hE-ic-YXl" customClass="IC_ForceTouch" customModule="Watch_01_WatchKit_Extension"/>
             </objects>
-            <point key="canvasLocation" x="146" y="-1451"/>
+            <point key="canvasLocation" x="658" y="-531"/>
         </scene>
         <!--Animation-->
         <scene sceneID="2E7-4G-isc">

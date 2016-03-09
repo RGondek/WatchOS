@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		620252121C90A3BE0091EA82 /* IC_Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620252111C90A3BE0091EA82 /* IC_Connectivity.swift */; };
 		621EBA751C876A1200FAEF87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621EBA741C876A1200FAEF87 /* AppDelegate.swift */; };
 		621EBA771C876A1200FAEF87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621EBA761C876A1200FAEF87 /* ViewController.swift */; };
 		621EBA7A1C876A1200FAEF87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 621EBA781C876A1200FAEF87 /* Main.storyboard */; };
@@ -85,6 +86,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		620252111C90A3BE0091EA82 /* IC_Connectivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IC_Connectivity.swift; sourceTree = "<group>"; };
 		621EBA711C876A1200FAEF87 /* Watch_01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch_01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		621EBA741C876A1200FAEF87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		621EBA761C876A1200FAEF87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 				621EBAB71C8780BA00FAEF87 /* Game */,
 				62F27B0B1C88A5B60000A5CC /* Table */,
 				621EBA991C876A1200FAEF87 /* InterfaceController.swift */,
+				620252111C90A3BE0091EA82 /* IC_Connectivity.swift */,
 				62F27B0E1C88AC3D0000A5CC /* IC_Picker.swift */,
 				62CF0CF51C8F4F9000B83426 /* IC_Animation.swift */,
 				6289D9C01C9092AE00FC5910 /* IC_MediaPlayer.swift */,
@@ -396,6 +399,7 @@
 				62F27B0D1C88A7E40000A5CC /* IC_TableDetail.swift in Sources */,
 				6289D9C11C9092AE00FC5910 /* IC_MediaPlayer.swift in Sources */,
 				621EBAA21C876A1200FAEF87 /* ComplicationController.swift in Sources */,
+				620252121C90A3BE0091EA82 /* IC_Connectivity.swift in Sources */,
 				62CF0CF81C8F5EBD00B83426 /* IC_Map.swift in Sources */,
 				62CF0CF61C8F4F9000B83426 /* IC_Animation.swift in Sources */,
 				62CF0CFA1C8F635D00B83426 /* IC_ImageAnimation.swift in Sources */,
