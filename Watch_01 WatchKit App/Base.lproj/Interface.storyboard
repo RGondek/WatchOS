@@ -158,7 +158,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="491" y="-764"/>
+            <point key="canvasLocation" x="507" y="-759"/>
         </scene>
         <!--Map-->
         <scene sceneID="58M-wK-TWH">
@@ -185,6 +185,18 @@
                 </controller>
             </objects>
             <point key="canvasLocation" x="146" y="-1227"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="gMk-Jh-TmM">
+            <objects>
+                <controller id="mSJ-6W-CeJ">
+                    <items>
+                        <button width="1" alignment="left" title="FIND THIS SHIT!" id="edF-fE-deN"/>
+                        <button width="1" alignment="left" title="LOUD SOUND!" id="EG1-pX-dOr"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="691" y="-1227"/>
         </scene>
         <!--Connectivity-->
         <scene sceneID="1IA-s4-tl8">
@@ -220,14 +232,14 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="491" y="-1227"/>
+            <point key="canvasLocation" x="507" y="-1232.5"/>
         </scene>
         <!--Force Touch-->
         <scene sceneID="22j-31-UHS">
             <objects>
                 <controller id="2hE-ic-YXl" customClass="IC_ForceTouch" customModule="Watch_01_WatchKit_Extension"/>
             </objects>
-            <point key="canvasLocation" x="658" y="-531"/>
+            <point key="canvasLocation" x="691" y="-531"/>
         </scene>
         <!--Animation-->
         <scene sceneID="2E7-4G-isc">
@@ -307,7 +319,7 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="491" y="-531"/>
+            <point key="canvasLocation" x="507" y="-531"/>
         </scene>
         <!--Picker-->
         <scene sceneID="PYY-ev-bkc">

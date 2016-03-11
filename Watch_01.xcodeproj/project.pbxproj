@@ -36,6 +36,9 @@
 		62CF0CF61C8F4F9000B83426 /* IC_Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CF0CF51C8F4F9000B83426 /* IC_Animation.swift */; };
 		62CF0CF81C8F5EBD00B83426 /* IC_Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CF0CF71C8F5EBD00B83426 /* IC_Map.swift */; };
 		62CF0CFA1C8F635D00B83426 /* IC_ImageAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CF0CF91C8F635D00B83426 /* IC_ImageAnimation.swift */; };
+		62EE0F051C91EA3F00E99FC1 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 62EE0F041C91EA3F00E99FC1 /* pew-pew-lei.caf */; };
+		62EE0F071C91EAF400E99FC1 /* IC_PewPew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EE0F061C91EAF400E99FC1 /* IC_PewPew.swift */; };
+		62EE0F081C91EDD600E99FC1 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 62EE0F041C91EA3F00E99FC1 /* pew-pew-lei.caf */; };
 		62F27B0A1C88A5A20000A5CC /* NamesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F27B091C88A5A20000A5CC /* NamesController.swift */; };
 		62F27B0D1C88A7E40000A5CC /* IC_TableDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F27B0C1C88A7E40000A5CC /* IC_TableDetail.swift */; };
 		62F27B0F1C88AC3D0000A5CC /* IC_Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F27B0E1C88AC3D0000A5CC /* IC_Picker.swift */; };
@@ -119,6 +122,8 @@
 		62CF0CF51C8F4F9000B83426 /* IC_Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IC_Animation.swift; sourceTree = "<group>"; };
 		62CF0CF71C8F5EBD00B83426 /* IC_Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IC_Map.swift; sourceTree = "<group>"; };
 		62CF0CF91C8F635D00B83426 /* IC_ImageAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IC_ImageAnimation.swift; sourceTree = "<group>"; };
+		62EE0F041C91EA3F00E99FC1 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "pew-pew-lei.caf"; path = "Watch_01 WatchKit Extension/pew-pew-lei.caf"; sourceTree = SOURCE_ROOT; };
+		62EE0F061C91EAF400E99FC1 /* IC_PewPew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IC_PewPew.swift; sourceTree = "<group>"; };
 		62F27B091C88A5A20000A5CC /* NamesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamesController.swift; sourceTree = "<group>"; };
 		62F27B0C1C88A7E40000A5CC /* IC_TableDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IC_TableDetail.swift; sourceTree = "<group>"; };
 		62F27B0E1C88AC3D0000A5CC /* IC_Picker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IC_Picker.swift; sourceTree = "<group>"; };
@@ -184,6 +189,7 @@
 				621EBA8B1C876A1200FAEF87 /* Assets.xcassets */,
 				621EBA8D1C876A1200FAEF87 /* Info.plist */,
 				6289D9C41C90998D00FC5910 /* giphy.mov */,
+				62EE0F041C91EA3F00E99FC1 /* pew-pew-lei.caf */,
 			);
 			path = "Watch_01 WatchKit App";
 			sourceTree = "<group>";
@@ -199,6 +205,7 @@
 				62F27B0E1C88AC3D0000A5CC /* IC_Picker.swift */,
 				62CF0CF51C8F4F9000B83426 /* IC_Animation.swift */,
 				6289D9C01C9092AE00FC5910 /* IC_MediaPlayer.swift */,
+				62EE0F061C91EAF400E99FC1 /* IC_PewPew.swift */,
 				62CF0CF71C8F5EBD00B83426 /* IC_Map.swift */,
 				62CF0CF91C8F635D00B83426 /* IC_ImageAnimation.swift */,
 				62F27B101C88AE1F0000A5CC /* IC_Timer.swift */,
@@ -360,6 +367,7 @@
 				621EBA8C1C876A1200FAEF87 /* Assets.xcassets in Resources */,
 				6289D9C51C90998D00FC5910 /* giphy.mov in Resources */,
 				621EBA8A1C876A1200FAEF87 /* Interface.storyboard in Resources */,
+				62EE0F051C91EA3F00E99FC1 /* pew-pew-lei.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +378,7 @@
 				62CF0CF41C8F461D00B83426 /* beer_glass.png in Resources */,
 				6289D9C61C909BA400FC5910 /* giphy.mov in Resources */,
 				621EBAA41C876A1200FAEF87 /* Assets.xcassets in Resources */,
+				62EE0F081C91EDD600E99FC1 /* pew-pew-lei.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +399,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				621EBA9E1C876A1200FAEF87 /* NotificationController.swift in Sources */,
+				62EE0F071C91EAF400E99FC1 /* IC_PewPew.swift in Sources */,
 				62F27B111C88AE1F0000A5CC /* IC_Timer.swift in Sources */,
 				621EBA9C1C876A1200FAEF87 /* ExtensionDelegate.swift in Sources */,
 				6289D9C31C90944B00FC5910 /* IC_ForceTouch.swift in Sources */,
